@@ -92,7 +92,7 @@ spec:
 
   steps:
     - name: pull-and-push-images
-      image: quay.io/konflux-ci/release-service-utils@sha256:ca926981d89c5a92a4c4d2c25cac777c4f726d87581fe95646b95a8bdd8bdb5a
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:b5c59783891dadd3be3fd15459e2d98e1e73355cf55be96591ab5514d52d4be7
       computeResources:
         limits:
           memory: 4Gi
